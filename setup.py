@@ -8,7 +8,7 @@ setuptools.setup(
     name="dbsplitsql",
 
     # version of the module
-    version="0.0.2",
+    version="0.0.8",
 
     # Name of Author
     author="Divya Goteti",
@@ -27,7 +27,10 @@ setuptools.setup(
     # Any link to reach this module, if you have any webpage or github profile
     url="https://github.com/balagdivya/dbsplitsql",
     packages=setuptools.find_packages(),
-
+    install_requires=['argparse'],
+    entry_points={
+        'console_scripts': ['dbsplitsql = dbsplitsql.main:main']
+    },
     # classifiers like program is suitable for python3, just leave as it is.
     classifiers=[
         "Programming Language :: Python :: 3",
