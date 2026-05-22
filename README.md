@@ -64,7 +64,7 @@ Contributions are welcome.
 1. Fork the repository
 
 ```bash
-git clone https://github.com/your-username/dbsplitsql.git
+git clone https://github.com/balagdivya/dbsplitsql.git
 ```
 
 2. Create a new branch
